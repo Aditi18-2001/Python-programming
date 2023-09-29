@@ -15,6 +15,6 @@ class Solution:
       if (i<len(s)-1 and m[s[i]]<m[s[i+1]]):
         ans=ans-m[s[i]]
       else:
-        ans=ans+m[s[i]]
+        ans=ans+m[s[i]] 
 
     return ans
